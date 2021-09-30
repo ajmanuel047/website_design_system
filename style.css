@@ -30,7 +30,7 @@ header h1 {
 
 
 .color-container, .fonts-container, #page_elements {
-  width: 80%;
+  width: 80%;  
   background-color: whitesmoke;
   margin: 0 auto;
   margin-top: 30px;
@@ -73,7 +73,7 @@ row-gap: 30px;
   display: flex;
   padding: 25px 20px 0;
   justify-content: space-between;
- }
+ } 
 
 .testing h3 {
   font-size: 30px;
@@ -81,13 +81,12 @@ row-gap: 30px;
 
 .cursive{
   font-family: cursive;
-  margin-top: 5px;
+  margin-top: 5px;  
   font-weight: 700;
 }
 
 .testing .cursive .plain p{
   color: aquamarine;
-
 }
 
 
@@ -95,7 +94,7 @@ row-gap: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14px;
   margin-top: 8px;
-
+  
 }
 
 .verdana .bold {
@@ -105,44 +104,7 @@ row-gap: 30px;
 .verdana_plain {
 margin-top: -9px;
 }
-@media (max-width: 1358px){
- 
-  .verdana_plain {
-    margin-top: 18px;
-  }
 
-  /* .cursive .plain {
-
-    background-color: aqua;
-  } */
-
-  .verdana .italics{
-
-   margin-top: -27px;
-  }
-}
-
-  @media (max-width: 1357px){
-   
-    .fonts-container {
-      width: 1300px;
-    }
-
-    .cursive .plain {
-      margin-top: 4px;
-      
-    }
-
-    .fonts-container .cursive p{
-      width: 95%;
-      
-    }
-
-    .cursive .italics {
-      margin-top: -5px;
-    }
-
-}
 .verdana .verdana_bold {
   line-height: 24px;
   font-size: 15px;
@@ -159,8 +121,8 @@ margin-top: -9px;
  margin-top: 6px;
  font-family: 'Poppins', sans-serif;
  font-weight: 700;
-
- width: 40%;
+ 
+ width: 50%;
  margin-right: 10px;
 }
 
@@ -173,7 +135,7 @@ margin-top: -9px;
 
 .other_elements {
   padding: 25px 20px 0;
-
+  
 }
 
 #page_elements span {
